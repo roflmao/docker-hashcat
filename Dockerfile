@@ -11,11 +11,11 @@ MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
 ENV HASHCAT_VERSION hashcat-0.50
 
-# Update & install packages for graylog
+# Update & install packages for installing hashcat
 RUN apt-get update && \
     apt-get install -y wget p7zip
 
-#Install and configure web interface
+#Install and configure hashcat
 RUN mkdir hashcat && \
     cd hashcat && \
     wget http://hashcat.net/files/${HASHCAT_VERSION}.7z && \
