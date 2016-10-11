@@ -27,4 +27,4 @@ RUN ln -s /hashcat/hashcat-cli64.bin /usr/bin/hashcat
 
 #EXPOSE 9000
 
-CMD ["/bin/bash""]
+CMD ["/bin/bash"]
