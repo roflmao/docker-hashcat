@@ -23,7 +23,7 @@ RUN mkdir hashcat && \
 
 
 #Add link for binary
-RUN ln -s /hashcat/hashcat-cli64.bin /usr/bin/hashcat
+RUN ln -s /hashcat/hashcat64.bin /usr/bin/hashcat
 
 #EXPOSE 9000
 
